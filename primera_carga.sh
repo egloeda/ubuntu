@@ -11,7 +11,7 @@ wget http://www.webmin.com/jcameron-key.asc
 apt-key add jcameron-key.asc 
 
 touch /etc/apt/sources.list.d/webmin.list
-echo "deb http://download.webmin.com/download/repository sarge contrib" >/etc/apt/sources.list.d/webmin.list
+echo "deb https://download.webmin.com/download/repository sarge contrib" >/etc/apt/sources.list.d/webmin.list
 
 apt-get -y install apt-transport-https
 apt-get -y update
