@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/egloeda/ubuntu/master/primera_carga.sh)"
-# sh -c "$(wget https://raw.githubusercontent.com/egloeda/ubuntu/master/primera_carga.sh -O -)"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/egloeda/ubuntu/master/primera_carga_12.10.sh)"
+# sh -c "$(wget https://raw.githubusercontent.com/egloeda/ubuntu/master/primera_carga_12.10.sh -O -)"
 
 apt-get -y update
 apt-get -y upgrade
