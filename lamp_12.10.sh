@@ -10,6 +10,7 @@ apt-get -y install php-db php5-sybasefreetds-dev
 apt-get -y install freetds-bin freetds-dev
 apt-get -y install sqsh
 apt-get -y install postfix
+apt-get -y install php5-sybase
 apt-get -y install mailutils
 apt-get -y install unzip
 apt-get -y install libaio1
