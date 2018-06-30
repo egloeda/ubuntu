@@ -10,6 +10,7 @@ apt-get -y install php-db php5-sybasefreetds-dev
 apt-get -y install freetds-dev sqsh
 apt-get -y install postfix
 apt-get -y install mailutils
+apt-get -y install unzip
 apt-get -y install snmp snmp-mibs-downloader snmpd
 echo "<?php phpinfo(); ?>" > /var/www/p1.php
 
