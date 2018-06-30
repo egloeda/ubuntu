@@ -7,7 +7,8 @@ apt-get -y install apache2
 apt-get -y install php5 php5-dev libapache2-mod-php5
 apt-get -y install php5-gd php5-gmp php5-recode php5-snphp-dbmp  php5-snmp php5-ming php5-mysqlnd php5-adodb  php5-intl php5-curl php5-mcrypt php5-imagick
 apt-get -y install php-db php5-sybasefreetds-dev
-apt-get -y install freetds-dev sqsh
+apt-get -y install freetds-bin freetds-dev
+apt-get -y install sqsh
 apt-get -y install postfix
 apt-get -y install mailutils
 apt-get -y install unzip
